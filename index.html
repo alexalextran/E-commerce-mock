@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylescss">
+    <link rel="stylesheet" href="styles.css">
      <title>Library</title>
      <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
      <script src="index.js"></script>
@@ -18,9 +18,9 @@
             <div class="nav__container">
               <img class="logo" src="./assets/Library.svg" alt="">
               <ul class="nav__links">
-                <li><a href="#" class="nav__link">Home</a></li>
+                <li><a href="index.html" class="nav__link">Home</a></li>
                 <li><a href="#" class="nav__link">Contact</a></li>
-                <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
+                <li><a href="books.html" class="nav__link nav__link--primary">Books</a></li>
               </ul>
               <button class="btn__menu" onclick="openMenu()">
                 <i class="fas fa-bars"></i>
@@ -49,7 +49,7 @@
                 <div class="header__description">
                 <h1>Australia's best online book store</h1>
                 <h2>Find Your Book With <span class="purple">Library</span></h2>
-                    <button class="btn">Browse Books</button>
+                  <a href="books.html"><button class="btn">Browse Books</button></a>  
             </div>
             <figure class="header__img--wrapper">
                 <img src="./assets/Undraw_Books.svg" alt="">
@@ -344,7 +344,7 @@
           <div class="row row__column">
             <h2>Explore more <span class="purple">Books</span></h2>
             <a href="#features">
-              <button class="btn">Browse books</button>
+              <a href="books.html"><button class="btn">Browse books</button></a>
             </a>
           </div>
         </div>
@@ -362,9 +362,9 @@
           </figure>
         </a>
         <div class="footer__list">
-          <a href="#" class="footer__link">Home</a>
+          <a href="index.html" class="footer__link">Home</a>
           <a class="footer__link no-cursor">About</a>
-          <a href="#features" class="footer__link">Books</a>
+          <a href="books.html" class="footer__link">Books</a>
           <a class="footer__link no-cursor">Contact</a>
         </div>
         <div class="footer__copyright">Copyright &copy; 2021 Library</div>
